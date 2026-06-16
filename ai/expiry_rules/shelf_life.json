@@ -1,0 +1,42 @@
+{
+  "pams lentils 500g": { "fridge_days": 0, "freezer_days": 0, "pantry_days": 365 },
+  "bananas": { "fridge_days": 5, "freezer_days": 60, "pantry_days": 3 },
+  "bread specialty": { "fridge_days": 7, "freezer_days": 90, "pantry_days": 3 },
+  "oxo cube vegetable": { "fridge_days": 0, "freezer_days": 0, "pantry_days": 730 },
+  "instant coffee": { "fridge_days": 0, "freezer_days": 0, "pantry_days": 365 },
+  "pumpkin butternut": { "fridge_days": 14, "freezer_days": 180, "pantry_days": 30 },
+  "campbells real stock": { "fridge_days": 4, "freezer_days": 90, "pantry_days": 0 },
+  "pams tomato 400g": { "fridge_days": 3, "freezer_days": 90, "pantry_days": 365 },
+  "exotic foods sauce": { "fridge_days": 30, "freezer_days": 120, "pantry_days": 365 },
+  "plastic bag": { "fridge_days": 0, "freezer_days": 0, "pantry_days": 0 },
+
+  "chicken breast": { "fridge_days": 2, "freezer_days": 180, "pantry_days": 0 },
+  "minced beef": { "fridge_days": 2, "freezer_days": 120, "pantry_days": 0 },
+  "pork slices": { "fridge_days": 3, "freezer_days": 180, "pantry_days": 0 },
+
+  "broccoli": { "fridge_days": 7, "freezer_days": 180, "pantry_days": 0 },
+  "spinach": { "fridge_days": 5, "freezer_days": 180, "pantry_days": 0 },
+  "lettuce": { "fridge_days": 5, "freezer_days": 0, "pantry_days": 0 },
+  "carrots": { "fridge_days": 21, "freezer_days": 365, "pantry_days": 7 },
+
+  "milk": { "fridge_days": 5, "freezer_days": 0, "pantry_days": 0 },
+  "yogurt": { "fridge_days": 10, "freezer_days": 0, "pantry_days": 0 },
+  "cheese": { "fridge_days": 14, "freezer_days": 0, "pantry_days": 0 },
+  "cream": { "fridge_days": 4, "freezer_days": 0, "pantry_days": 0 },
+
+  "eggs": { "fridge_days": 28, "freezer_days": 0, "pantry_days": 14 },
+  "tofu": { "fridge_days": 4, "freezer_days": 0, "pantry_days": 0 },
+
+  "rice cooked": { "fridge_days": 4, "freezer_days": 30, "pantry_days": 0 },
+  "pasta cooked": { "fridge_days": 4, "freezer_days": 60, "pantry_days": 0 },
+  "leftovers": { "fridge_days": 3, "freezer_days": 60, "pantry_days": 0 },
+
+  "apples": { "fridge_days": 21, "freezer_days": 365, "pantry_days": 7 },
+  "tomatoes": { "fridge_days": 5, "freezer_days": 0, "pantry_days": 3 },
+  "oranges": { "fridge_days": 21, "freezer_days": 180, "pantry_days": 14 },
+  "grapes": { "fridge_days": 7, "freezer_days": 0, "pantry_days": 0 },
+
+  "frozen vegetables": { "fridge_days": 0, "freezer_days": 365, "pantry_days": 0 },
+  "frozen dumplings": { "fridge_days": 0, "freezer_days": 180, "pantry_days": 0 },
+  "frozen seafood": { "fridge_days": 2, "freezer_days": 120, "pantry_days": 0 }
+}
