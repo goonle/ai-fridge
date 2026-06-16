@@ -1,4 +1,6 @@
 import { create } from "zustand";
+import { persist, createJSONStorage } from "zustand/middleware";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const initial = {
   age: null,
@@ -10,11 +12,17 @@ const initial = {
 };
 
 const createProfileStore = () =>
-  create((set, get) => ({
-    ...initial,
-    saveProfile: (partial) => set((s) => ({ ...s, ...partial })),
-    resetProfile: () => set(initial),
-  }));
+  persist(
+    create((set, get) => ({
+      ...initial,
+      saveProfile: (partial) => set((s) => ({ ...s, ...partial })),
+      resetProfile: () => set(initial),
+    })),
+    {
+      name: "profile-storage",
+      storage: createJSONStorage(() => AsyncStorage),
+    }
+  );
 
 // ensure single instance across Fast Refresh
 const useProfile = globalThis.__profileStore || createProfileStore();

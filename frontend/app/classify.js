@@ -320,13 +320,12 @@ export default function Classify() {
       );
     } finally {
       setSaving(false);
-      router.push("storage");
     }
   };
 
   return (
     <View style={styles.wrap}>
-      <Pressable style={styles.backBtn} onPress={() => router.push("/")}>
+      <Pressable style={styles.backBtn} onPress={() => router.back()}>
         <Text style={styles.backIcon}>←</Text>
         <Text style={styles.backText}>Home</Text>
       </Pressable>

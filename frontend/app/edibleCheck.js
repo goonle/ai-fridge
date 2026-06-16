@@ -76,8 +76,8 @@ export default function EdibleCheck() {
             ];
 
             // pick one randomly
-            // const data = mockResults[Math.floor(Math.random() * mockResults.length)];
-            const data = mockResults[1];
+            const data = mockResults[Math.floor(Math.random() * mockResults.length)];
+            // const data = mockResults[1];
 
             setResult(data);
         } catch (e) {

@@ -70,7 +70,7 @@ export default function Notifications() {
   return (
     <View style={styles.wrap}>
       {/* Back button */}
-      <Pressable style={styles.backBtn} onPress={() => router.push("/")}>
+      <Pressable style={styles.backBtn} onPress={() => router.back()}>
         <Text style={styles.backIcon}>←</Text>
         <Text style={styles.backText}>Home</Text>
       </Pressable>

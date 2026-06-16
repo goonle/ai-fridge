@@ -21,7 +21,7 @@ export default function Storage() {
     setOpen({
       pantry: t === "pantry",
       fridge: t === "fridge",
-      freezer: t === "fridge",
+      freezer: t === "freezer",
     });
   }, [type]);
 
@@ -76,7 +76,7 @@ export default function Storage() {
 
   return (
     <View style={styles.wrap}>
-      <Pressable style={styles.backBtn} onPress={() => router.push("/")}>
+      <Pressable style={styles.backBtn} onPress={() => router.back()}>
         <Text style={styles.backIcon}>←</Text>
         <Text style={styles.backText}>Home</Text>
       </Pressable>
